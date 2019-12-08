@@ -15,7 +15,7 @@
 #include "window_configuration.h"
 
 const wchar_t *kFlutterWindowTitle = L"Flutterverso de Gerenciamento de Estado";
-const unsigned int kFlutterWindowOriginX = 10;
-const unsigned int kFlutterWindowOriginY = 10;
-const unsigned int kFlutterWindowWidth = 800;
-const unsigned int kFlutterWindowHeight = 600;
+const unsigned int kFlutterWindowOriginX = 0;
+const unsigned int kFlutterWindowOriginY = 0;
+const unsigned int kFlutterWindowWidth = 1920;
+const unsigned int kFlutterWindowHeight = 1000;
