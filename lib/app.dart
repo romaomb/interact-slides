@@ -13,7 +13,7 @@ class InteractApp extends StatelessWidget {
       manager: slideManager,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.orange),
+        theme: ThemeData(primarySwatch: Colors.blue),
         home: slides[0].route,
       ),
     );

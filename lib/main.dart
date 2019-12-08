@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:interact_slides/app.dart';
 import 'package:flutter_slides/flutter_slides.dart';
+import 'package:interact_slides/slides/about_slide.dart';
 import 'package:interact_slides/slides/welcome_slide.dart';
 
 void main() {
@@ -24,5 +25,6 @@ void _enablePlatformOverrideForDesktop() {
 List<Slide> _getSlides() {
   return [
     Slide(route: WelcomeSlide()),
+    Slide(route: AboutSlide()),
   ];
 }

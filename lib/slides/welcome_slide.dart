@@ -2,11 +2,13 @@ import 'package:flutter_slides/flutter_slides.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeSlide extends SlideBase {
-  @override
-  Widget background() => Container(color: Colors.red);
+  WelcomeSlide() : super(bodyFlex: 0, titleFontSize: 72);
 
   @override
-  String title() => "Welcome";
+  Widget background() => Container(color: Colors.white);
+
+  @override
+  String title() => "Flutterverso de Gerenciamento de Estado";
 
   @override
   Widget body(BuildContext context) {
