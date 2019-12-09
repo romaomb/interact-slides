@@ -6,7 +6,7 @@ class BlocSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'BLoC';
+  Widget title(BuildContext context) => SlideTitle('BLoC');
 
   @override
   Widget body(BuildContext context) {

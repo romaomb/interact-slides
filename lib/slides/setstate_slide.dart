@@ -6,7 +6,7 @@ class SetStateSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'setState';
+  Widget title(BuildContext context) => SlideTitle('setState');
 
   @override
   Widget body(BuildContext context) {

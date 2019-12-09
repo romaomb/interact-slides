@@ -9,9 +9,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  flutter_slides: ^0.0.6
+  flutter_slides: ^0.0.7
   font_awesome_flutter: ^8.5.0
-  flare_flutter: ^1.8.0
 
 dev_dependencies:
   flutter_test:

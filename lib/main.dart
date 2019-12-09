@@ -23,6 +23,7 @@ void main() {
   final slideManager = SlideManager(slides);
 
   runApp(InteractApp(slides, slideManager));
+
 }
 
 void _enablePlatformOverrideForDesktop() {

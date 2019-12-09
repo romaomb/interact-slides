@@ -6,7 +6,7 @@ class ProviderSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Provider';
+  Widget title(BuildContext context) => SlideTitle('Provider');
 
   @override
   Widget body(BuildContext context) {

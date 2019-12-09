@@ -6,7 +6,7 @@ class WidgetSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Everything is a Widget';
+  Widget title(BuildContext context) => SlideTitle('Everything is a Widget');
 
   @override
   Widget body(BuildContext context) {

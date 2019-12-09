@@ -6,7 +6,7 @@ class FinallySlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Finally';
+  Widget title(BuildContext context) => SlideTitle('Finally');
 
   @override
   Widget body(BuildContext context) {

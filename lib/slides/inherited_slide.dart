@@ -6,7 +6,7 @@ class InheritedSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Inherited Widget';
+  Widget title(BuildContext context) => SlideTitle('Inherited Widget');
 
   @override
   Widget body(BuildContext context) {

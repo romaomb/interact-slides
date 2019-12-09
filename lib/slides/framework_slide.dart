@@ -6,7 +6,7 @@ class FrameworkSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Framework';
+  Widget title(BuildContext context) => SlideTitle('Framework');
 
   @override
   Widget body(BuildContext context) {

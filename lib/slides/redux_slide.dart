@@ -6,7 +6,7 @@ class ReduxSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Redux';
+  Widget title(BuildContext context) => SlideTitle('Redux');
 
   @override
   Widget body(BuildContext context) {

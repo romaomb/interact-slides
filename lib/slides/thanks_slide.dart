@@ -9,7 +9,7 @@ class ThanksSlide extends SlideBase {
   Widget background() => Container(color: Colors.white);
 
   @override
-  String title() => 'Isso é tudo pessoal!';
+  Widget title(BuildContext context) => SlideTitle('Isso é tudo pessoal!');
 
   @override
   Widget body(BuildContext context) {
