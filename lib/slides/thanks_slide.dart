@@ -55,7 +55,7 @@ class ThanksSlide extends SlideBase {
                   child: Image.asset(Gifs.ban),
                 ),
                 SizedBox(height: 20.0),
-                Text('Até a próxima!', style: Styles.textCaption)
+                Text('Até o próximo reencontro!', style: Styles.textCaption)
               ],
             ),
           ],
