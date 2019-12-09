@@ -5,7 +5,11 @@ import 'package:interact_slides/res/gifs.dart';
 import 'package:interact_slides/res/images.dart';
 
 class WelcomeSlide extends SlideBase {
-  WelcomeSlide() : super(bodyFlex: 0);
+  WelcomeSlide()
+      : super(
+          bodyFlex: 0,
+          transitionType: SlideTransitionType.size,
+        );
 
   @override
   Widget background() {

@@ -36,8 +36,8 @@ List<Slide> _getSlides() {
   return [
     Slide(route: WelcomeSlide()),
     Slide(route: AboutSlide()),
-    Slide(route: WidgetSlide()),
     Slide(route: FrameworkSlide()),
+    Slide(route: WidgetSlide()),
     Slide(route: SetStateSlide()),
     Slide(route: InheritedSlide()),
     Slide(route: ProviderSlide()),

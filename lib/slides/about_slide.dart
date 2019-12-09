@@ -4,10 +4,11 @@ import 'package:interact_slides/res/gifs.dart';
 import 'package:flutter/material.dart';
 import 'package:interact_slides/res/images.dart';
 import 'package:interact_slides/res/styles.dart';
+import 'package:interact_slides/widgets/background_lines.dart';
 
 class AboutSlide extends SlideBase {
   @override
-  Widget background() => Container(color: Colors.white);
+  Widget background() => const BackgroundLines();
 
   @override
   Widget title(BuildContext context) => SlideTitle('Oi, eu sou o Romão!');
