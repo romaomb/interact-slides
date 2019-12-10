@@ -6,6 +6,7 @@ import 'package:interact_slides/app.dart';
 import 'package:flutter_slides/flutter_slides.dart';
 import 'package:interact_slides/slides/about_slide.dart';
 import 'package:interact_slides/slides/bloc_slide.dart';
+import 'package:interact_slides/slides/build_slide.dart';
 import 'package:interact_slides/slides/finally_slide.dart';
 import 'package:interact_slides/slides/framework_slide.dart';
 import 'package:interact_slides/slides/inherited_slide.dart';
@@ -23,7 +24,6 @@ void main() {
   final slideManager = SlideManager(slides);
 
   runApp(InteractApp(slides, slideManager));
-
 }
 
 void _enablePlatformOverrideForDesktop() {
@@ -38,6 +38,7 @@ List<Slide> _getSlides() {
     Slide(route: AboutSlide()),
     Slide(route: FrameworkSlide()),
     Slide(route: WidgetSlide()),
+    Slide(route: BuildSlide()),
     Slide(route: SetStateSlide()),
     Slide(route: InheritedSlide()),
     Slide(route: ProviderSlide()),

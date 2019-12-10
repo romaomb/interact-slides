@@ -11,7 +11,7 @@ class AboutSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('Oi, eu sou o Romão!');
+  Widget title(BuildContext context) => const SlideTitle('Oi, eu sou o Romão!');
 
   @override
   Widget body(BuildContext context) {
