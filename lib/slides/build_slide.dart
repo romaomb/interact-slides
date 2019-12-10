@@ -22,6 +22,7 @@ class BuildSlide extends SlideBase {
           ],
         ),
         TopicBox(
+          padding: const EdgeInsets.only(left: 120.0, top: 100.0),
           flex: 0,
           topics: [
             Topic(
@@ -31,7 +32,7 @@ class BuildSlide extends SlideBase {
                 Subtopic(text: 'Para cada estado, use essa UI'),
               ],
             ),
-            TopicSpace(),
+            TopicSpace(space: 60.0),
             Topic(
               'O que é estado?',
               subtopics: [
@@ -40,16 +41,15 @@ class BuildSlide extends SlideBase {
                 Subtopic(text: 'Mudança de uma variável de controle'),
               ],
             ),
-            TopicSpace(),
+            TopicSpace(space: 60.0),
             Topic(
               'Seu widget pode ser rebuildado a qualquer instante',
               subtopics: [
                 Subtopic(text: 'Novos dados serão rapidamente atualizadas'),
-                Subtopic(text: 'Não significa que você deve sempre rebuildar'),
+                Subtopic(text: 'Não significa que você deve rebuildar tudo'),
+                Subtopic(text: 'Não deve existir interferência entre UIs distintas'),
               ],
             ),
-            TopicSpace(),
-            Topic('Não deve existir interferência entre UIs distintas'),
           ],
         )
       ],

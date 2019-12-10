@@ -8,15 +8,7 @@ class WidgetSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) {
-    return Align(
-      alignment: Alignment.center,
-      child: Text(
-        'Everything is a Widget',
-        style: TextStyle(fontSize: 60.0, fontStyle: FontStyle.italic),
-      ),
-    );
-  }
+  Widget title(BuildContext context) => SlideTitle('Everything is a Widget');
 
   @override
   Widget body(BuildContext context) => Padding(
