@@ -10,4 +10,5 @@ class Images {
   static const changes = '$_defaultPath/changes.png';
   static const setState = '$_defaultPath/setState.png';
   static const passing = '$_defaultPath/passing.png';
+  static const bloc = '$_defaultPath/bloc.png';
 }

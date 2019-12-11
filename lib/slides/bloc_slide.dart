@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slides/flutter_slides.dart';
+import 'package:interact_slides/res/images.dart';
 import 'package:interact_slides/widgets/background_lines.dart';
 
 class BlocSlide extends SlideBase {
@@ -7,10 +8,16 @@ class BlocSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('BLoC');
+  Widget title(BuildContext context) => SlideTitle('Business Logic Components');
 
   @override
   Widget body(BuildContext context) {
-    return Container();
+    return Expanded(
+      child: Column(
+        children: <Widget>[
+          Image.asset(Images.bloc),
+        ],
+      )
+    );
   }
 }

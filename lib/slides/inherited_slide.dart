@@ -10,7 +10,7 @@ class InheritedSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('InheritedWidget');
+  Widget title(BuildContext context) => SlideTitle('Lift State up!');
 
   @override
   Widget body(BuildContext context) {

@@ -7,7 +7,7 @@ class ProviderSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('Provider');
+  Widget title(BuildContext context) => SlideTitle('Package Provider');
 
   @override
   Widget body(BuildContext context) {
