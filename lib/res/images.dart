@@ -8,4 +8,6 @@ class Images {
   static const widgets = '$_defaultPath/widgets.png';
   static const function = '$_defaultPath/function.png';
   static const changes = '$_defaultPath/changes.png';
+  static const setState = '$_defaultPath/setState.png';
+  static const passing = '$_defaultPath/passing.png';
 }
