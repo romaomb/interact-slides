@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slides/flutter_slides.dart';
 import 'package:interact_slides/res/images.dart';
+import 'package:interact_slides/showcase/inherited/inherited_counter.dart';
 import 'package:interact_slides/showcase/inherited/inherited_routes.dart';
-import 'package:interact_slides/showcase/inherited/test.dart';
 import 'package:interact_slides/widgets/background_lines.dart';
 
 class InheritedSlide extends SlideBase {
@@ -21,21 +21,20 @@ class InheritedSlide extends SlideBase {
           Image.asset(Images.passing),
           Container(
             width: 350.0,
-            child: ClipRect(
-              child: Provider(
-                data: AppState(0),
-                child: MaterialApp(
-                  debugShowCheckedModeBanner: false,
-                  initialRoute: '/firstRoute',
-                  routes: {
-                    '/firstRoute': (_) => FirstRoute(),
-                    '/secondRoute': (_) => SecondRoute(),
-                  },
-                ),
-              ),
-            ),
+            child: _buildInheritedShowcase(),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildInheritedShowcase() {
+    return ClipRect(
+      child: InheritedProvider(
+        data: AppState(0),
+        child: MaterialApp(
+          home: FirstRoute(),
+        ),
       ),
     );
   }
