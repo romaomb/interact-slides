@@ -4,4 +4,5 @@ class Gifs {
   static const ban = '$_defaultPath/ban.gif';
   static const astronaut = '$_defaultPath/astronaut.gif';
   static const redux = '$_defaultPath/redux.gif';
+  static const keys = '$_defaultPath/keys.gif';
 }

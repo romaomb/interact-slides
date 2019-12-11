@@ -21,7 +21,7 @@ class BlocSlide extends SlideBase {
             padding: const EdgeInsets.only(left: 150.0, top: 50.0),
             topics: [
               Topic(
-                'Padrão completamente reativo',
+                'Base reativa',
                 subtopics: [
                   Subtopic(text: 'Streams X rxdart'),
                   Subtopic(text: 'StreamBuilder'),

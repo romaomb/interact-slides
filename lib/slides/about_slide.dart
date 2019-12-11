@@ -54,7 +54,7 @@ class AboutSlide extends SlideBase {
                 Topic(
                   'Engenheiro da Computação',
                   subtopics: [
-                    Subtopic(text: 'Universdade Salvador'),
+                    Subtopic(text: 'Universidade Salvador'),
                     Subtopic(text: 'Temple University'),
                   ],
                 ),

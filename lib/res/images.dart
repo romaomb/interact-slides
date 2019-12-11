@@ -11,7 +11,7 @@ class Images {
   static const setState = '$_defaultPath/setState.png';
   static const passing = '$_defaultPath/passing.png';
   static const bloc = '$_defaultPath/bloc.png';
-  static const inheritedProvider = '$_defaultPath/inheritedProvider.png';
   static const basicInherited = '$_defaultPath/basicInherited.png';
   static const favorite = '$_defaultPath/favorite.png';
+  static const multiProvider = '$_defaultPath/multiProvider.png';
 }

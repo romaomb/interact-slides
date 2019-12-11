@@ -43,7 +43,7 @@ class BuildSlide extends SlideBase {
             ),
             TopicSpace(space: 60.0),
             Topic(
-              'Seu widget pode ser rebuildado a qualquer instante',
+              'Seu Widget pode ser rebuildado a qualquer instante',
               subtopics: [
                 Subtopic(text: 'Novos dados serão rapidamente atualizadas'),
                 Subtopic(text: 'Não significa que você deve rebuildar tudo'),
