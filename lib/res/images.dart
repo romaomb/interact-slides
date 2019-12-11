@@ -13,4 +13,5 @@ class Images {
   static const bloc = '$_defaultPath/bloc.png';
   static const inheritedProvider = '$_defaultPath/inheritedProvider.png';
   static const basicInherited = '$_defaultPath/basicInherited.png';
+  static const favorite = '$_defaultPath/favorite.png';
 }
