@@ -47,15 +47,13 @@ class _InheritedProvider extends InheritedWidget {
   _InheritedProvider({
     this.data,
     this.child,
-  })  : _dataValue = data.value,
-        super(child: child);
+  }) : super(child: child);
 
   final data;
   final child;
-  final _dataValue;
 
   @override
   bool updateShouldNotify(_InheritedProvider oldWidget) {
-    return _dataValue != oldWidget._dataValue;
+    return data.value != oldWidget.data.value;
   }
 }

@@ -7,7 +7,7 @@ class FinallySlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('Finally');
+  Widget title(BuildContext context) => SlideTitle('Possibilidades para os Astronautas');
 
   @override
   Widget body(BuildContext context) {

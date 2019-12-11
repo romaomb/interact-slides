@@ -10,15 +10,22 @@ class InheritedSlide extends SlideBase {
   Widget background() => const BackgroundLines();
 
   @override
-  Widget title(BuildContext context) => SlideTitle('Lift State up!');
+  Widget title(BuildContext context) => SlideTitle('Lifting state up!');
 
   @override
   Widget body(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(left: 50.0, right: 50.0, bottom: 50.0),
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          Image.asset(Images.passing),
+          Column(
+            children: <Widget>[
+              Expanded(child: Image.asset(Images.passing)),
+              Expanded(child: Image.asset(Images.basicInherited)),
+            ],
+          ),
+          SizedBox(width: 50.0,),
           Container(
             width: 350.0,
             child: _buildInheritedShowcase(),

@@ -11,6 +11,10 @@ class ProviderSlide extends SlideBase {
 
   @override
   Widget body(BuildContext context) {
-    return Container();
+    return Row(
+      children: [
+        Topic('')
+      ],
+    );
   }
 }
